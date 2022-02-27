@@ -1,8 +1,10 @@
 import React from "react";
 import '../Components/HomePage.css';
+import Footer from "./Footer";
 import HomePageItinerary from "./HomePageItinerary";
 import Inclusions from "./Inclusions";
-import ReviewCarousel from "./ReviewCarousel";
+import Review from "./Review";
+import SocialMedia from "./SocialMedia";
 import WhyTravelogged from "./WhyTravelogged";
 
 const HomePage = () => {
@@ -23,7 +25,7 @@ const HomePage = () => {
               <div class="collapse navbar-collapse" id="navbarTogglerDemo03" className="mr-20 mt-2">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
                   <li class="nav-item">
-                    <button class="nav-link"><h1 className=" home-btn text-2xl text-white rounded hover:rounded-md transition-all">Home</h1></button>
+                    <button class="nav-link"><h1 className=" home-btn text-2xl text-white rounded">Home</h1></button>
                   </li>
                   <li class="nav-item">
                     <button class="nav-link"><h1 className="about-btn text-white text-2xl">About</h1></button>
@@ -39,8 +41,8 @@ const HomePage = () => {
         <h2 className="text-3xl mt-5 ">Visit the "SWARG" on Earth- The Mighty Kedarnath Temple this 2022.</h2>
         <h2 className="text-2xl mt-7 ">Book Tickets now to avail 20% off! Limited Seats Remaining!</h2>
         <div className="flex flex-row justify-evenly align-center gap-5 w-96 m-auto pt-20">
-          <button className="book-now-btn font-semibold text-xl rounded-full bg-sky-500 px-3 py-2">Book Now</button>
-          <button className="book-now-btn font-semibold text-xl rounded-full bg-sky-500 px-3 py-2">Check Itinerary</button>
+          <button className="book-now-btn font-semibold text-xl rounded-full bg-sky-500 px-3 py-2 shadow-lg">Book Now</button>
+          <button className="book-now-btn font-semibold text-xl rounded-full bg-sky-500 px-3 py-2 shadow-lg">Check Itinerary</button>
         </div>
       </div>
       <div className="itinerary-container">
@@ -52,8 +54,14 @@ const HomePage = () => {
       <div className="whytravelogged-container">
         <WhyTravelogged />
       </div>
-      <div className="reviewcarousel-container">
-        <ReviewCarousel />
+      <div className="review-container">
+        <Review />
+      </div>
+      <div className="socialmedia-container">
+        <SocialMedia />
+      </div>
+      <div className="footer-container">
+        <Footer />
       </div>
     </div>
 

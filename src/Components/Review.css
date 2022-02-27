@@ -1,0 +1,25 @@
+.review-container {
+    height: 600px;
+}
+
+.bg-image {
+    height: 600px;
+    opacity: 0.9;
+}
+
+.card {
+    height: 350px;
+    width: 350px;
+    border-radius: 50px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}

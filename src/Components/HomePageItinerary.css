@@ -3,7 +3,11 @@
 }
 
 .vr {
-    height: 200px;
+    height: 1370px;
+}
+
+.d-flex {
+    margin-top: 5px;
 }
 
 .days-content {
